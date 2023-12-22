@@ -9,6 +9,11 @@ function App() {
   const [courses, setCourses] = useState([])
   const [loading, setLoading] = useState(true)
 
+  const deleteCourse = (id) =>{
+    const afterDeletedCourses = courses.filter((course) => course.id !== id);
+    setCourses(afterDeletedCourses);
+  }
+
   const fetchCourses = async () => {
     setLoading(true);
     try {
@@ -29,7 +34,7 @@ function App() {
       (
         <Loading />
       ) : (
-        <Courses courses={courses}/> 
+        <Courses courses={courses} removeCourse={deleteCourse}/> 
       )
     }
    
