@@ -1,11 +1,11 @@
 import Course from "./Course";
 
-function Courses({courses, removeCourse}) { 
-    return <div>
+function Courses({courses, removeCourse}) {
+    return <div className="courseMainDiv">
         <div>
             <h2>Kurslarım</h2>
         </div>
-        <div className="">
+        <div className="cardDiv">
             {
                 courses.map((course) => {
                     return (
