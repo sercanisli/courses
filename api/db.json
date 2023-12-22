@@ -1,0 +1,28 @@
+{
+    "courses" : [
+        {
+            "id" :1,
+            "content" : "Dibine kadar Angular kursu. 1 ayda yazılımcı olun. 1 ay da fullstack yazılım geliştirmeyi öğrenin",
+            "title" : "Angular",
+            "price": 69
+        },
+        {
+            "id" :2,
+            "content" : "Hazır tasarımları projelerinizde kullanın Bootstrap öğrenerek uygulama geliştirin",
+            "title" : "Bootstrap",
+            "price": 39
+        },
+        {
+            "id" :3,
+            "content" : "C# ile nesne yönelimli programlama öğrenin. C# ile uygulamalar geliştirin",
+            "title" : "C#",
+            "price": 99
+        },
+        {
+            "id" :4,
+            "content" : ".Net Core framework ile uygulama geliştirin. 120 saatte yazılımcı olun",
+            "title" : ".Net Core",
+            "price": 119
+        }
+    ]
+}
