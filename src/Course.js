@@ -1,5 +1,9 @@
+import {useState} from 'react';
+
 function Course({id, title, content, price, removeOneCourse}) { 
-    
+   
+
+
     return <div className="card">
         <div className="cardTitlePrice">
             <h2 className="cardTitle">{title}</h2>

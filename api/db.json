@@ -2,25 +2,25 @@
     "courses" : [
         {
             "id" :1,
-            "content" : "Dibine kadar Angular kursu. 1 ayda yazılımcı olun. 1 ay da fullstack yazılım geliştirmeyi öğrenin",
+            "content" : "Dibine kadar Angular kursu. 1 ayda yazılımcı olun. 1 ay da fullstack yazılım geliştirmeyi öğrenin Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "title" : "Angular",
             "price": 69
         },
         {
             "id" :2,
-            "content" : "Hazır tasarımları projelerinizde kullanın Bootstrap öğrenerek uygulama geliştirin",
+            "content" : "Hazır tasarımları projelerinizde kullanın Bootstrap öğrenerek uygulama geliştirin. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "title" : "Bootstrap",
             "price": 39
         },
         {
             "id" :3,
-            "content" : "C# ile nesne yönelimli programlama öğrenin. C# ile uygulamalar geliştirin",
+            "content" : "C# ile nesne yönelimli programlama öğrenin. C# ile uygulamalar geliştirin. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "title" : "C#",
             "price": 99
         },
         {
             "id" :4,
-            "content" : ".Net Core framework ile uygulama geliştirin. 120 saatte yazılımcı olun",
+            "content" : ".Net Core framework ile uygulama geliştirin. 120 saatte yazılımcı olun. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
             "title" : ".Net Core",
             "price": 119
         }
