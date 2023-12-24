@@ -36,3 +36,10 @@
 .refreshProcess{
     text-align: center;
 }
+
+.FaChevronButton{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: gray;
+}
