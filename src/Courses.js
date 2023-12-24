@@ -13,14 +13,14 @@ function Courses({courses, removeCourse}) {
             let newIndex = index-1;
             return checkIndex(newIndex);
         })
-    }
+    };
 
     const nextCourse = () => {
         setIndex((index) => {
             let newIndex = index +1;
             return checkIndex(newIndex);
         })
-    }
+    };
 
     const checkIndex = (index) => {
         if(index<0){
@@ -31,11 +31,22 @@ function Courses({courses, removeCourse}) {
         }
 
         return index;
-    }
+    };
+
+    const getRandomCourse = () => {
+        let randomNumber = Math.floor(Math.random()*courses.length)
+
+        if(randomNumber ===index){
+            randomNumber = index + 1;
+        }
+
+        setIndex(checkIndex(randomNumber));
+    };
 
     return <div className="courseMainDiv">
-        <div>
+        <div className="courseTitleAndButton">
             <h2>Kurslarım</h2>
+            <button className="cardDeleteBtn" onClick={getRandomCourse}>Rastgele Kurs Ata</button>
         </div>
         <div className="cardDiv">
             <button className="FaChevronButton" onClick={prevCourse}>

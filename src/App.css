@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.courseTitleAndButton{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .cardDiv{
     display: flex;
     flex-wrap: wrap;
@@ -25,7 +30,7 @@
 }
 
 .cardDeleteBtn{
-    width: 100px;
+    width: 200px;
     padding: 10px;
     border-radius: 30px;
     border: none;
